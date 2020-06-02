@@ -20,5 +20,6 @@
   ## Final computation half the domain at the time, writing the output in hourly files
   
    - first half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX1-on-hal.ipynb
-   - seceond half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX2-on-hal.ipynb
+   - second half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX2-on-hal.ipynb
+   - recombination of harmonic analysis : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-15-AA-recombine-along-x-amp-phase-results-from-pytide.ipynb and of the filtered ssh : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-19-AA-recombine-tide-results-from-pytide-switch-axis-when-needed.ipynb
  
