@@ -13,7 +13,12 @@
     - for [3 months](https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-04-AA-timing-pytide-eNATL60-BLBT02-ssh-hal-dask-future-3month-batch-full-nodes-queue.ipynb)
     - for [6 months](https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-05-AA-timing-pytide-eNATL60-BLBT02-ssh-hal-dask-future-6month-batch-full-nodes-queue.ipynb)
     - for [12 months half of the domain](https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-06-AA-timing-pytide-eNATL60-BLBT02-ssh-hal-dask-future-12month-batch-full-nodes-queue-midomainX1.ipynb)
-    - for 12 months full domain ?
+    - for 12 months full domain ? crashed
     
   - difficult to time with interactive session closing regularly, 3 month = 26mn, 1 year 1/2 domain = >2h
+  
+  ## Final computation half the domain at the time, writing the output in hourly files
+  
+   - first half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX1-on-hal.ipynb
+   - seceond half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX2-on-hal.ipynb
  
