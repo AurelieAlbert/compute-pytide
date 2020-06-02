@@ -2,7 +2,7 @@
 
 ## First tests with demo FES time serie
 
-  - reproducing analysis from [pytide package](https://github.com/CNES/pangeo-pytide/blob/master/README.md), on mac : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-04-28-AA-test-pytide-fes-time-series.ipynb
+  - reproducing analysis from [pytide package](https://github.com/CNES/pangeo-pytide/blob/master/README.md), on mac : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-04-28-AA-test-pytide-fes-time-series-mac.ipynb
   - same analysis with h as a dataarray and some spectrum computed : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-04-28-AA-test-pytide-fes-time-series-xarray-spectrum.ipynb
   - on occigen, conda pytide environment prepacked on cal1, same tests : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-04-29-AA-test-pytide-fes-time-series-xarray-spectrum-occigen.ipynb
   
