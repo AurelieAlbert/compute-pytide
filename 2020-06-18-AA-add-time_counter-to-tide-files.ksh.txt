@@ -1,0 +1,10 @@
+#add time_counter to files
+
+for file in $(ls /work/ALT/odatis/eNATL60/BLBT02/gridT-2D/*nc); do fileo=$(basename $file | awk -F_ '{print $3}'); ncks -v time_counter $file tim_counter_$fileo.nc; done
+ncrcat time_counter* time_counter_all.nc
+rm time_counter_20*
+
+for file in $(ls /work/ALT/odatis/eNATL60/outputs/pytide/eNATL60-BLBT02_tide_y2009m07-y2010m06_k*.nc); do 
+    fileo=$(echo $file | sed "s/_k/_time_k/g"); echo $fileo; k=$(echo $file | awk -Fk '{print $3}' | awk -F. '{print $1}'); 
+    cp $file $fileo; ncks -d time_counter,$k,$k time_counter_all.nc time_counter_k$k.nc; ncks -A -v time_counter time_counter_k$k.nc $fileo; 
+    ncap2 -O -s 'tide_time[time_counter,y,x]=tide' $fileo $fileo; ncks -O -x -v tide $fileo $fileo; done
