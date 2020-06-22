@@ -17,9 +17,17 @@
     
   - difficult to time with interactive session closing regularly, 3 month = 26mn, 1 year 1/2 domain = >2h
   
-  ## Final computation half the domain at the time, writing the output in hourly files
+## Final computation half the domain at the time, writing the output in hourly files
   
    - first half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX1-on-hal.ipynb
    - second half : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-11-AA-launch-pytide-eNATL60-BLBT02-ssh-12month-midomainX2-on-hal.ipynb
    - recombination of harmonic analysis : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-15-AA-recombine-along-x-amp-phase-results-from-pytide.ipynb and of the filtered ssh : https://github.com/AurelieAlbert/compute-pytide/blob/master/2020-05-19-AA-recombine-tide-results-from-pytide-switch-axis-when-needed.ipynb
+   - adding a time_counter dimension in all files :
+   
+## Comparison of harmonic analysis with results from tidal-tools
+
+ - plots : https://github.com/AurelieAlbert/compute-pytide/blob/master/maps_amp_phi_M2-S2-N2-O1-K1_eNATL60_tidal-tools-pytide.png
  
+## Assessing the filtering of tidal signal
+
+  - time series and spectrum in one point of the domain
